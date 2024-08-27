@@ -3,8 +3,8 @@
 use function Safe\spl_autoload_register;
 
 spl_autoload_register(function ($className) {
-    $prefix = "Ws\\";
-    $baseDir = __DIR__ . "/ws/";
+    $prefix = "App\\";
+    $baseDir = __DIR__ . "/src/";
 
     $len = strlen($prefix);
 
